@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>7-Zip</title>
+</head>
+
+<body>
+    <a href="#" id="1"></a>
+    <div class="header">
+        <div class="logo-container">
+            <a class="logo-link" href="#">
+                <img class="logo-img" src="./img/logo.png" alt="logo">
+            </a>
+        </div>
+
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">7z Format</a></li>
+            <li><a href="#">LZMA SDK</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Links</a></li>
+
+        </ul>
+    </div>
+<div class="content-container">
+    <div class="content">
+        <h1>7-Zip</h1>
+        <p>7-Zip is a file archiver with a high compression ratio.</p>
+
+        <p><b>Download 7-Zip 22.01 (2022-07-15) for Windows:</b></p>
+
+        <table>
+            <tr>
+            <th>Link</td>
+            <th>Type</td>
+            <th>Windows</td>
+            <th>Size</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.7-zip.org/a/7z2201-x64.exe">Download</a></td>
+                <td>.exe</td>
+                <td>64-bit x64</td>
+                <td>1.5 MB</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.7-zip.org/a/7z2201.exe">Download</a></td>
+                <td>.exe</td>
+                <td>32-bit x86</td>
+                <td>1.2 MB</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.7-zip.org/a/7z2201-arm64.exe">Download</a></td>
+                <td>.exe</td>
+                <td>64-bit ARM64</td>
+                <td>1.5 MB</td>
+            </tr>
+        </table>
+        <h1>License</h1>
+        <p>7-Zip is free software with open source. The most of the code is under the GNU LGPL license. Some parts of the code are under the BSD 3-clause License. Also there is unRAR license restriction for some parts of the code. Read <a href="https://www.7-zip.org/license.txt">7-Zip License</a> information.</p>
+        <p>You can use 7-Zip on any computer, including a computer in a commercial organization. You don't need to register or pay for 7-Zip.</p>
+        <h1>The main features of 7-Zip</h1>
+
+        <ul>
+            <li>High compression ratio in <a href="#">7z format</a> with <b>LZMA</b> and <b>LZMA2</b> compression</li>
+            <li>Supported formats:<ul>
+                <li>Packing / unpacking: 7z, XZ, BZIP2, GZIP, TAR, ZIP and WIM</li>
+                <li>Unpacking only: APFS, AR, ARJ, CAB, CHM, CPIO, CramFS, DMG, EXT, FAT, GPT, HFS, IHEX, ISO, LZH, LZMA, MBR, MSI, NSIS, NTFS, QCOW2, RAR, RPM, SquashFS, UDF, UEFI, VDI, VHD, VHDX, VMDK, XAR and Z.</li>
+            </ul></li>
+            <li>For ZIP and GZIP formats, <b>7-Zip</b> provides a compression ratio that is 2-10 % better than the ratio provided by PKZip and WinZip</li>
+            <li>Strong AES-256 encryption in 7z and ZIP formats</li>
+            <li>Self-extracting capability for 7z format</li>
+            <li>Integration with Windows Shell</li>
+            <li>Powerful File Manager</li>
+            <li>Powerful command line version</li>
+            <li>Plugin for FAR Manager</li>
+            <li>Localizations for 87 languages</li>
+        </ul>
+
+        <p><b>7-Zip</b> works in Windows 10 / 8 / 7 / Vista / XP / 2019 / 2016 / 2012 / 2008 / 2003 / 2000.</p>
+        <p><a href="#">p7zip</a> - the port of the command line version of 7-Zip to Linux/Posix.</p>
+        <p>On <a href="https://sourceforge.net/projects/sevenzip/"> 7-Zip's SourceForge Page</a> you can find a forum, bug reports, and feature request systems.</p>
+        <h1>Compression ratio</h1>
+        <p>We compared <b>7-Zip</b> with WinRAR 5.20.</p>
+        <p><b>FILE SETS:</b> Mozilla Firefox 34.0.5 for Windows and Google Earth 6.2.2.6613 for Windows.</p>
+
+        <table>
+            <thead>
+              <tr class="table-title">
+                <th rowspan="3">Archiver</th>
+                <th colspan="2">Mozilla Firefox</th>
+                <th colspan="2">Google Earth</th>
+              </tr>
+              <tr class="table-title">
+                <th colspan="2">65 files 85 <br> 280 391 bytes</th>
+                <th colspan="2">483 files 110 700 519 bytes</th>
+              </tr>
+              <tr class="table-title">
+                <th>Compressed size</th>
+                <th>Ratio</th>
+                <th>Compressed size</th>
+                <th>Ratio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-content">
+                <td>7-Zip 9.35 -mx</td>
+                <td>39 357 375</td>
+                <td>100%</td>
+                <td>15 964 369</td>
+                <td>100%</td>
+              </tr>
+              <tr class="table-content">
+                <td>WinRAR 5.20 -m5 -s -ma5 -md128m</td>
+                <td>41 789 543</td>
+                <td>106%</td>
+                <td>17 035 432</td>
+                <td>107%</td>
+              </tr>
+            </tbody>
+            </table>
+            <p>Compression ratio results are very dependent upon the data used for the tests. Usually, <b>7-Zip</b> compresses to 7z format 30-70% better than to zip format. And <b>7-Zip</b> compresses to zip format 2-10% better than most of other zip compatible programs.</p>
+    </div>
+
+    <div class="release-table">
+        <table>
+            <thead>
+              <tr>
+                <th>7-zip 22.01</th>
+                <th>2022-07-15<br></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2"><a href="https://sourceforge.net/p/sevenzip/discussion/45797/thread/c43cbc5f18/">7-zip 22.01</a></td>
+              </tr>
+            </tbody>
+            </table>
+
+            <table>
+                <thead>
+                  <tr>
+                    <th>7-Zip 22.00</th>
+                    <th>2022-06-15<br></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="2"><a href="https://sourceforge.net/p/sevenzip/discussion/45797/thread/9c2d9061ce/">7-Zip 22.00</a></td>
+                  </tr>
+                </tbody>
+                </table>
+
+                <table>
+                    <thead>
+                      <tr>
+                        <th>7-Zip 21.07</th>
+                        <th>2021-12-26<br></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td colspan="2"><a href="https://sourceforge.net/p/sevenzip/discussion/45797/thread/0a7b47970b/">7-Zip 21.07</a></td>
+                      </tr>
+                    </tbody>
+                    </table>
+
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>7-Zip ChangeLog</th>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.7-zip.org/history.txt">History of 7-zip changes</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+</div>
+</div>
+
+<div class="up-arrow">
+    <a href="#1">
+        <img src="./img/arrow.png" alt="arrow">
+    </a>
+</div>
+
+</body>
+
+</html>
