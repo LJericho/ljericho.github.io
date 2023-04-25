@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: #2B2A33;
+}
+
+.header ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.content-container{
+    display: flex;
+}
+
+.content a{
+    text-decoration: none;
+    color: rgb(4, 98, 221);
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+.release-table a{
+    text-decoration: none;
+    color: rgb(4, 98, 221);
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+.content a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(4, 98, 221);;
+    background-color: #2B2A33;
+    transition: all .25s ease;
+}
+
+.content-container a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(4, 98, 221);;
+    background-color: #2B2A33;
+    transition: all .25s ease;
+}
+
+.header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #1C1B22;
+    justify-content: end;
+    position: sticky;
+    top: 0px
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 0;
+
+}
+
+.nav-list li{
+    color: #FBFBFE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+
+
+.nav-list li:hover{
+    color: #1C1B22;
+    background-color: #FBFBFE;
+    padding: 17px 5px;
+    transition: all .25s ease;
+}
+
+.logo-container{
+ flex-grow: 1;
+ 
+}
+
+.logo-link{
+    padding: 0 10px;
+    align-items: center;
+   
+}
+
+.logo-img{
+    height: 40px;
+}
+
+.content{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #42414D;
+    margin: 20px 5px 20px 10px;
+    padding: 10px;
+    color: #FBFBFE;
+    border-radius: 2px;
+
+}
+
+.content h1{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+table, td{
+    
+    width: 25%;
+    border: 1px;
+}
+
+th{
+    background-color: #016e2b;
+    font-weight: bold;
+}
+
+td{
+    background-color: #1C1B22;
+}
+
+.release-table{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #42414D;
+    margin: 20px 10px 20px 5px;
+    padding: 10px;
+    color: #FBFBFE;
+    height: 20%;
+    width: 17%;
+    border-radius: 2px;
+}
+
+.release-table table{
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+
+.up-arrow{
+    display: flex;
+    background-color: #1C1B22;
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    
+}
+.up-arrow img{
+    height: 80px;
+}
